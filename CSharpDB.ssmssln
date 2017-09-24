@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# SQL Server Management Studio Solution File, Format Version 14.00
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "BasicCRUD", "BasicCRUD\BasicCRUD.ssmssqlproj", "{B0085B7C-85B9-462A-9C87-24480D5D255A}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "DataDefinitionAndDatatypes", "DataDefinitionAndDatatypes\DataDefinitionAndDatatypes.ssmssqlproj", "{3D2C8ACD-AB13-4F23-BF38-E5CDC98830A8}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "BuildInFunction", "BuildInFunction\BuildInFunction.ssmssqlproj", "{62A9080E-80C3-4EBB-B30E-03462998D608}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|Default = Default|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B0085B7C-85B9-462A-9C87-24480D5D255A}.Default|Default.ActiveCfg = Default
+		{3D2C8ACD-AB13-4F23-BF38-E5CDC98830A8}.Default|Default.ActiveCfg = Default
+		{BADEDF2A-FE17-4EAC-AC04-0813EE5679B9}.Default|Default.ActiveCfg = Default
+		{62A9080E-80C3-4EBB-B30E-03462998D608}.Default|Default.ActiveCfg = Default
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
