@@ -1,6 +1,8 @@
-SELECT * FROM Employees
+SELECT *
+  FROM Employees
 
 UPDATE Employees
-SET Salary += Salary * 0.1
+   SET Salary += Salary * 0.1
 
-SELECT Salary FROM Employees
+SELECT Salary
+  FROM Employees

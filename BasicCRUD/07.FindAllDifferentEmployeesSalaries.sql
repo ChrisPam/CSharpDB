@@ -1,1 +1,2 @@
-SELECT DISTINCT Salary FROM Employees
+SELECT DISTINCT Salary
+  FROM Employees

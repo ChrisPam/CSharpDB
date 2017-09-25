@@ -1,2 +1,3 @@
-SELECT FirstName, LastName FROM Employees
-WHERE LEN(LastName) = 5
+SELECT FirstName, LastName
+  FROM Employees
+ WHERE LEN(LastName) = 5

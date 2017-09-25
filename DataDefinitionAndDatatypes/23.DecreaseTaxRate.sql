@@ -1,6 +1,8 @@
-SELECT * FROM Payments
+SELECT *
+  FROM Payments
 
 UPDATE Payments
-SET TaxRate -= TaxRate * 0.03
+   SET TaxRate -= TaxRate * 0.03
 
-SELECT TaxRate FROM Payments
+SELECT TaxRate
+  FROM Payments

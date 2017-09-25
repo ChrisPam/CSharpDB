@@ -10,8 +10,8 @@ INSERT INTO People (Name, Birthdate) VALUES
 ('Simo', '1995-09-13')
 
 SELECT Name, 
-	DATEDIFF(YEAR, Birthdate, GETDATE()) AS [Age in Years],
-	DATEDIFF(MONTH, Birthdate, GETDATE()) AS [Age in Months],
-	DATEDIFF(DAY, Birthdate, GETDATE()) AS [Age in Days],
-	DATEDIFF(MINUTE, Birthdate, GETDATE()) AS [Age in Minutes]
-FROM People
+	   DATEDIFF(YEAR, Birthdate, GETDATE()) AS [Age in Years],
+	   DATEDIFF(MONTH, Birthdate, GETDATE()) AS [Age in Months],
+	   DATEDIFF(DAY, Birthdate, GETDATE()) AS [Age in Days],
+	   DATEDIFF(MINUTE, Birthdate, GETDATE()) AS [Age in Minutes]
+  FROM People
